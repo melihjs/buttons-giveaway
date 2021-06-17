@@ -11,7 +11,7 @@ client.on('ready', () => {
 });
 
 client.on('message', (message) => {
-  let prefix = "?";
+  let prefix = 'prefix';
   if (message.author.bot) return;
   if (message.content.indexOf(prefix) !== 0) return;
   const args = message.content.slice(prefix.length).trim().split(/ +/g);
@@ -29,4 +29,4 @@ fs.readdir('./cmds/', (err, files) => {
   });
 });
 
-client.login(process.env.token);
+client.login('token');
