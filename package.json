@@ -1,18 +1,17 @@
 {
-  "name": "yemek-as",
-  "version": "0.0.1",
-  "description": "Yemek A.Ş sitesidir!",
+  "name": "buttons-giveaway",
+  "version": "0.1.0",
+  "description": "Giveaway bot with discord-buttons",
   "main": "index.js",
-  "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
-  },
-  "keywords": [],
-  "author": "",
+  "keywords": ["buttons", "giveaway"],
+  "author": "zMelihStrqfe",
   "license": "ISC",
   "dependencies": {
-    "ejs": "^3.1.6",
-    "express": "^4.17.1",
-    "express-session": "^1.17.2",
-    "memorystore": "^1.6.6"
+    "croxydb": "0.0.7",
+    "discord-buttons": "^3.2.1",
+    "discord.js": "^12.5.3",
+    "moment": "^2.29.1",
+    "ms": "^2.1.3",
+    "fs": "^0.0.2"
   }
 }
